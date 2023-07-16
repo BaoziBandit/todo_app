@@ -1,4 +1,4 @@
-import './HeaderEditor.module.css';
+import style from './HeaderEditor.module.css';
 import {useEffect, createRef} from 'react';
 
 
@@ -20,7 +20,7 @@ const HeaderEditor = props => {
     props.onBlur();
   }
 
-  return <form onSubmit={submitHandler}>
+  return <form className={style.editor} onSubmit={submitHandler}>
       <input type='text' defaultValue={props.text} ref={inputRef} onBlur={blurHandler}/>
     </form>
 }
