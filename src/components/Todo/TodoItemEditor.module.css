@@ -1,0 +1,12 @@
+.editor {
+  position: relative;
+  display: inline;
+}
+.editor input {
+  font-size: 1em;
+  color: #ddd;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}

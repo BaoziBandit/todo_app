@@ -1,0 +1,14 @@
+:root {
+  background-color: #222;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  margin-block: 0;
+}
+
+hr {
+  margin-block: 0;
+  margin-inline: 0;
+}

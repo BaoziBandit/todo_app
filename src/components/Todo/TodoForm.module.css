@@ -1,0 +1,23 @@
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 1em 0 .5em;
+}
+
+.input {
+  background-color: #222;
+  border: 1px #555 solid;
+  border-radius: 5px;
+  width: 400px;
+  color: #ddd;
+  padding: 1em
+}
+
+.button {
+  background-color: #444;
+  color: #ddd;
+  border: transparent;
+  border-radius: 5px;
+  padding: 1em;
+}

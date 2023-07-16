@@ -1,0 +1,39 @@
+.item {
+  font-size: 1.5em;
+  position: relative;
+  padding:0.25em;
+}
+
+.item li {
+  display: inline;
+}
+
+.icon {
+  margin-right: 1.5em;
+}
+.icon:hover {
+  color: #88e;
+}
+
+.even {
+  background-image: linear-gradient(to right, #333 , #222, #222, #333);
+}
+
+.icon {
+  position: relative;
+  right: 0px;
+  width: 26px;
+  height: 26px;
+}
+
+.right {
+  position: absolute;
+}
+
+.edit {
+  right: 1.5em;
+}
+
+.delete:hover{
+  color: #e55;
+}

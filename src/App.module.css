@@ -1,0 +1,16 @@
+.add {
+  display: block;
+  text-align: center;
+}
+
+.plus{
+  transform: rotate(45deg);
+}
+
+.plus,.cross{
+  color: #666;
+  font-size: 14pt;
+}
+.plus:hover,.cross:hover{
+  color: #ddd;
+}
